@@ -1,0 +1,15 @@
+[submodule "openai-runners"]
+	path = openai-runners
+	url = git@github.com:Cloud-SPE/livepeer-byoc-openai-runners.git
+[submodule "gateway-proxy"]
+	path = gateway-proxy
+	url = git@github.com:Cloud-SPE/livepeer-byoc-gateway-proxy.git
+[submodule "rerank-runner"]
+	path = rerank-runner
+	url = git@github.com:Cloud-SPE/livepeer-byoc-rerank-runner.git
+[submodule "register-capabilities"]
+	path = register-capabilities
+	url = git@github.com:Cloud-SPE/livepeer-byoc-register-capabilities.git
+[submodule "video-runner"]
+	path = video-runner
+	url = git@github.com:Cloud-SPE/livepeer-byoc-video-runner.git

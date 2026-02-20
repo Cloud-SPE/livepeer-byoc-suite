@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="u4SCNszwOAGvIG9U95WI">
+    <mxGraphModel dx="1382" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_cRBE5RhYem1Ct_z-Utr-1" target="_cRBE5RhYem1Ct_z-Utr-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-1" value="OpenAI Client App" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="120" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_cRBE5RhYem1Ct_z-Utr-2" target="Aye_YMKYx5r0-_98cRV--21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="385" />
+              <mxPoint x="410" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-2" value="go-livepeer&lt;br&gt;gateway" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="415" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_cRBE5RhYem1Ct_z-Utr-3" target="_cRBE5RhYem1Ct_z-Utr-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-3" value="register_capabilities" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="710" y="255" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-4" value="go-livepeer&lt;br&gt;orch" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="560" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-5" value="BYOC gateway &lt;br&gt;proxy" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="290" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-7" value="ollama instance" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="800" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="510" width="540" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_cRBE5RhYem1Ct_z-Utr-4" target="Aye_YMKYx5r0-_98cRV--21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="480" as="sourcePoint" />
+            <mxPoint x="540" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_cRBE5RhYem1Ct_z-Utr-4" target="_cRBE5RhYem1Ct_z-Utr-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="60" as="sourcePoint" />
+            <mxPoint x="560" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cRBE5RhYem1Ct_z-Utr-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_cRBE5RhYem1Ct_z-Utr-5" target="_cRBE5RhYem1Ct_z-Utr-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="305" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--1" value="Rerank App" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aye_YMKYx5r0-_98cRV--10" target="_cRBE5RhYem1Ct_z-Utr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="530" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--2" value="Video Generation App" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--3" value="Any Language support by OpenAI SDK&lt;br&gt;&lt;br&gt;Features&lt;br&gt;- Text Embeddings&lt;br&gt;- Image Geneation&lt;br&gt;- Chat Completions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Aye_YMKYx5r0-_98cRV--1" target="_cRBE5RhYem1Ct_z-Utr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="220" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aye_YMKYx5r0-_98cRV--2" target="_cRBE5RhYem1Ct_z-Utr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="420" as="sourcePoint" />
+            <mxPoint x="340" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--7" value="byoc text embeddings runner" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--8" value="byoc image generation runner" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="650" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--9" value="byoc rerank runner" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="550" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--12" value="byoc chat completion runner" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aye_YMKYx5r0-_98cRV--13" target="Aye_YMKYx5r0-_98cRV--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--13" value="byoc video generation runner" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--23" value="Each Runner Must register with the Orchestrator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="520" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--25" value="The Orchestrator will communicate with Each Runner" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--26" value="LightX2v" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="815" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--29" value="The Gateway will communicate with Each Runner" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="390" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Aye_YMKYx5r0-_98cRV--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.815;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aye_YMKYx5r0-_98cRV--21" target="_cRBE5RhYem1Ct_z-Utr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -13,3 +13,6 @@
 [submodule "video-runner"]
 	path = video-runner
 	url = git@github.com:Cloud-SPE/livepeer-byoc-video-runner.git
+[submodule "transcode-runners"]
+	path = transcode-runners
+	url = git@github.com:Cloud-SPE/livepeer-byoc-transcode-runners.git
